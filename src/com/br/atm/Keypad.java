@@ -51,7 +51,7 @@ public class Keypad {
 	
 	public JPanel addkeypad() {
 		   JPanel panel = new JPanel();
-		   panel.setPreferredSize(new Dimension(180, 160));
+		   panel.setPreferredSize(new Dimension(260, 180));
 		   panel.setBackground(Color.gray);
 		   panel.setLayout(new FlowLayout()); 
 		   panel.add(B1);
